@@ -18,12 +18,12 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="bg-yellow-100 shadow-md fixed w-full z-10">
+      <nav className="bg-blue-100 shadow-md fixed w-full z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex">
               <Link href="/" className="flex-shrink-0 flex items-center">
-                <span className="text-2xl font-bold text-gray-800 hover:text-gray-600 hover:text-3xl transition-all duration-200">Images by Oleg</span>
+                <span className="text-2xl font-bold text-gray-800">Images by Oleg</span>
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
