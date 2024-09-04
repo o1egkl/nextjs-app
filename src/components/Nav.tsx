@@ -23,7 +23,7 @@ export default function Nav() {
           <div className="flex justify-between h-16">
             <div className="flex">
               <Link href="/" className="flex-shrink-0 flex items-center">
-                <span className="text-2xl font-bold text-gray-800">Images by Oleg</span>
+                <span className="text-2xl font-bold text-gray-800 hover:text-gray-600 hover:text-3xl transition-all duration-200">Images by Oleg</span>
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
@@ -31,10 +31,10 @@ export default function Nav() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
+                  className={`inline-flex items-center px-1 pt-1 border-b-2 transition-all duration-200 ${
                     pathname === item.href
-                      ? 'border-indigo-500 text-gray-900'
-                      : 'border-transparent text-gray-700 hover:border-gray-300 hover:text-gray-900'
+                      ? 'border-indigo-500 text-gray-900 font-bold text-base'
+                      : 'border-transparent text-gray-700 hover:border-gray-300 hover:text-gray-900 hover:font-bold hover:text-lg text-sm font-medium'
                   }`}
                 >
                   {item.label}
@@ -44,7 +44,7 @@ export default function Nav() {
             <div className="-mr-2 flex items-center sm:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-800 hover:font-bold hover:text-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 transition-all duration-200"
               >
                 <span className="sr-only">Open main menu</span>
                 {isMenuOpen ? (
@@ -68,10 +68,10 @@ export default function Nav() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
+                  className={`block pl-3 pr-4 py-2 border-l-4 transition-all duration-200 ${
                     pathname === item.href
-                      ? 'bg-indigo-50 border-indigo-500 text-gray-900'
-                      : 'border-transparent text-gray-700 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-900'
+                      ? 'bg-indigo-50 border-indigo-500 text-gray-900 font-bold text-base'
+                      : 'border-transparent text-gray-700 hover:border-gray-300 hover:text-gray-900 hover:font-bold hover:text-lg text-sm font-medium'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
