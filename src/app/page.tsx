@@ -54,7 +54,7 @@ export default function Home() {
             Images by Oleg leverages the power of advanced machine learning models to generate images from text descriptions. Our platform integrates the latest versions of DALL-E, ensuring that you have access to the most sophisticated AI image generation technology available.
           </p>
           <p className="text-gray-600">
-            Whether you're looking to create concept art, design marketing materials, or simply explore the possibilities of AI-generated imagery, our platform provides the tools and flexibility you need to bring your ideas to life.
+            Whether  you&apos;re looking to create concept art, design marketing materials, or simply explore the possibilities of AI-generated imagery, our platform provides the tools and flexibility you need to bring your ideas to life.
           </p>
         </div>
 
