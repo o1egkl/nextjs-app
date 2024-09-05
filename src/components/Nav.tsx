@@ -41,6 +41,7 @@ export default function Nav() {
                 </Link>
               ))}
             </div>
+            {/* This div is hidden on small screens and contains the menu toggle button */}
             <div className="-mr-2 flex items-center sm:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
