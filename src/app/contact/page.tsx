@@ -1,9 +1,10 @@
 'use client';
 
+// Import necessary dependencies and functions
 import { useState } from 'react';
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
-import { sendEmail } from './actions';
+import { sendEmail } from './actions'; // Add comment here to indicate sending email functionality
 
 export default function Contact() {
   const [formStatus, setFormStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');

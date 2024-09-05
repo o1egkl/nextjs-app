@@ -45,7 +45,7 @@ export default function Affiliates() {
               <strong>Sign up:</strong> Join our affiliate program and create your account.
             </li>
             <li>
-              <strong>Get your unique link:</strong>  We'll provide you with a personalized referral link to share.
+              <strong>Get your unique link:</strong> We&apos;ll provide you with a personalized referral link to share.
             </li>
             <li>
               <strong>Promote Images by Oleg:</strong> Share your link on your website, social media, or with your network.
