@@ -1,0 +1,12 @@
+{
+  "name": "My Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
