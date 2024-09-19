@@ -27,5 +27,10 @@
   },
 	"engines": {
     "node": "22.x"
-  }
+  },
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+}
 }
